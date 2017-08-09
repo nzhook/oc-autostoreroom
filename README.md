@@ -1,4 +1,4 @@
-# oc-storeroom
+# oc-autostoreroom
 OpenComputers Storage System
 
 Autocrafting, storage searching and remote inventory management inside the OpenComputers Minecraft mod *
