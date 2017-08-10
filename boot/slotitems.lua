@@ -264,8 +264,7 @@ end
 print("Doing initial scan of inventories...")
 invrefresh()
 
-print("REMINDER TO SELF: REfreshtimer is disabled");
---refreshtimer = event.timer(refreshtime, invrefresh, math.huge)
+refreshtimer = event.timer(refreshtime, invrefresh, math.huge)
 event.listen("slotrefresh", invrefresh)
 event.listen("slotget", invget)
 event.listen("slotecget", ecget)
